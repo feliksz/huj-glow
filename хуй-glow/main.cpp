@@ -18,10 +18,8 @@ int main()
 
 	int32_t   game_state{ NULL };
 
-	const int32_t render_when_occluded = true;
-	const float color[4] = {
-		1.00f, 0.00f, 1.00f, 1.00f
-	};
+	const bool render_when_occluded{ true };
+	const float color[4]{ 1.00f, 0.00f, 1.00f, 1.00f };
 
 	while (window == NULL)
 	{
@@ -145,7 +143,7 @@ int main()
 			WriteProcessMemory(process_handle,
 				reinterpret_cast<void*>(glow_object_manager_addr + glow_index * 0x38 + 0x24),
 				&render_when_occluded,
-				sizeof(int32_t),
+				sizeof(bool),
 				0);
 
 		}
