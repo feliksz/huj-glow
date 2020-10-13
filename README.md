@@ -1,2 +1,2 @@
 # huj-glow
-projekt na informatyke
+oprogramowanie pistolet na informatyke
