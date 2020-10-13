@@ -1,8 +1,6 @@
 #include <chrono>     // std::chrono::milliseconds
 #include <thread>     // std::this_thread::sleep_for
 
-#include <iostream>   // std::cout
-
 #include <Windows.h>
 #include <TlHelp32.h>
 
