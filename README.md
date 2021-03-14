@@ -1,2 +1,1 @@
-# huj-glow
-oprogramowanie pistolet na informatyke
+# don't use it, it's probably detected
